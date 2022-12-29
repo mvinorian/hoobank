@@ -3,7 +3,7 @@ import { quotes } from "../assets";
 
 const FeedbackCard = ({ content, name, title, img }) => {
   return (
-    <div className="flex justify-start flex-col px-10 py-12 rounded-lg max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+    <div className="flex justify-start flex-col px-10 py-12 rounded-xl max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
       <img src={quotes} alt="" className="w-[42px] h-[27px] object-contain" />
       <p className="font-poppins font-normal text-[18px] leading-[32px] text-white h-full my-10">
         {content}
